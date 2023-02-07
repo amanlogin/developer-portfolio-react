@@ -21,7 +21,7 @@ const footer = () => {
             <FaHome size={20} style={{ color: "white", marginRight: "2rem" }} />
             <div>
               <p>House No: 25, Deopur, Deoghar</p>
-              <p>Jharkhand 814142</p>
+              <p> 814142, Jharkhand, India</p>
             </div>
           </div>
           <div className="Phone">
