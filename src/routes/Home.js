@@ -1,6 +1,7 @@
 import React from "react";
 import NavBar from "../components/NavBar";
 import Heroimage from "../components/Heroimage";
+import Work from "../components/Work";
 import Footer from "../components/Footer";
 
 const home = () => {
@@ -8,6 +9,7 @@ const home = () => {
     <div>
       <NavBar />
       <Heroimage />
+      <Work />
       <Footer />
     </div>
   );
