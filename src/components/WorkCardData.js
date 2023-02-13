@@ -5,8 +5,8 @@ import project3 from "../assets/pro-3.jpg";
 const ProjectCardData = [
   {
     imgsrc: project1,
-    title: "Ecommerce website Design",
-    text: "Project Description",
+    title: "Viper's Chat Application",
+    text: "This is a real time chat applicaton based on react js and firebase",
     view: "URL",
     Source: "https://github.com/amanlogin",
   },
