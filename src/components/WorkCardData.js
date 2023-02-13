@@ -8,7 +8,7 @@ const ProjectCardData = [
     title: "Viper's Chat Application",
     text: "This is a real time chat applicaton based on react js and firebase",
     view: "URL",
-    Source: "https://github.com/amanlogin",
+    Source: "https://github.com/amanlogin/realtime-private-chat-application",
   },
   {
     imgsrc: project2,
