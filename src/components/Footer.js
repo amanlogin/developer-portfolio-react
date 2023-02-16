@@ -11,6 +11,7 @@ import {
   FaPhone,
   FaTwitter,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const footer = () => {
   return (
@@ -50,26 +51,36 @@ const footer = () => {
             currently learning Web3. I enjoy learning new technologies
           </p>
           <div className="Social">
-            <FaFacebook
-              size={30}
-              style={{ color: "white", marginRight: "1rem" }}
-            />
-            <FaTwitter
-              size={30}
-              style={{ color: "white", marginRight: "1rem" }}
-            />
-            <FaLinkedin
-              size={30}
-              style={{ color: "white", marginRight: "1rem" }}
-            />
-            <FaGithub
-              size={30}
-              style={{ color: "white", marginRight: "1rem" }}
-            />
-            <FaInstagram
-              size={30}
-              style={{ color: "white", marginRight: "1rem" }}
-            />
+            <Link to="https://www.facebook.com/">
+              <FaFacebook
+                size={30}
+                style={{ color: "white", marginRight: "1rem" }}
+              />
+            </Link>
+            <Link to="https://www.twitter.com/">
+              <FaTwitter
+                size={30}
+                style={{ color: "white", marginRight: "1rem" }}
+              />
+            </Link>
+            <Link to="https://www.linkedin.com/in/aman-kumar-a08138174/">
+              <FaLinkedin
+                size={30}
+                style={{ color: "white", marginRight: "1rem" }}
+              />
+            </Link>
+            <Link to="https://github.com/amanlogin">
+              <FaGithub
+                size={30}
+                style={{ color: "white", marginRight: "1rem" }}
+              />
+            </Link>
+            <Link to="https://www.instagram.com">
+              <FaInstagram
+                size={30}
+                style={{ color: "white", marginRight: "1rem" }}
+              />
+            </Link>
           </div>
         </div>
       </div>
